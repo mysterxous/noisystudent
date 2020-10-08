@@ -27,7 +27,7 @@ import collections
 import os
 import functools
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import tensorflow.compat.v2 as tf2
 
 from tensorflow.python.tpu import tpu_function
